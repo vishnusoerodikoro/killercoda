@@ -1,6 +1,6 @@
 #!/bin/bash
-# verify4.sh — check student found mystery.log
-if grep -q "mystery.log" ~/.bash_history 2>/dev/null; then
+if [ -f ~/found-culprit.txt ]; then
   exit 0
 fi
+echo "Hint: ketik -> echo mystery.log > ~/found-culprit.txt"
 exit 1
