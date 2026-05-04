@@ -5,6 +5,7 @@
   "time": "15",
   "details": {
     "intro": { "text": "intro.md" },
+    "background": "background.sh"
     "steps": [
       { "title": "Step 1 — Cek load average", "text": "step1.md", "verify": "verify1.sh" },
       { "title": "Step 2 — Temukan proses boros CPU", "text": "step2.md", "verify": "verify2.sh" },
