@@ -1,0 +1,17 @@
+{
+  "title": "Lab 02 — Server Lemot, CPU Tinggi",
+  "description": "SLA latency naik dari 50ms ke 800ms. Tidak ada monitoring. Identify proses yang boros CPU dan kill dengan benar.",
+  "difficulty": "easy",
+  "time": "15",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      { "title": "Step 1 — Cek load average", "text": "step1.md", "verify": "verify1.sh" },
+      { "title": "Step 2 — Temukan proses boros CPU", "text": "step2.md", "verify": "verify2.sh" },
+      { "title": "Step 3 — Analisis per-core & per-process", "text": "step3.md", "verify": "verify3.sh" },
+      { "title": "Step 4 — Kill proses dengan benar", "text": "step4.md", "verify": "verify4.sh" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

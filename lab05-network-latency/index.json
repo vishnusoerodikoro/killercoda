@@ -1,0 +1,17 @@
+{
+  "title": "Lab 05 — Network Latency Triage",
+  "description": "API call ke api.github.com kadang >2 detik. Tim bilang 'jaringan lemot'. Prove exactly di layer mana waktu hilang: DNS, TCP, TLS, atau server?",
+  "difficulty": "intermediate",
+  "time": "15",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      { "title": "Step 1 — Path-level test dengan mtr", "text": "step1.md", "verify": "verify1.sh" },
+      { "title": "Step 2 — Isolasi DNS resolution time", "text": "step2.md", "verify": "verify2.sh" },
+      { "title": "Step 3 — Latency breakdown dengan curl -w", "text": "step3.md", "verify": "verify3.sh" },
+      { "title": "Step 4 — Analisis & kesimpulan", "text": "step4.md", "verify": "verify4.sh" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

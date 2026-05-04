@@ -1,0 +1,44 @@
+{
+  "title": "Lab 01 — Disk Penuh Misterius",
+  "description": "Server error 'no space left on device'. Investigate, find the culprit, dan remediate — tanpa delete file sembarangan.",
+  "difficulty": "beginner",
+  "time": "15",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1 — Konfirmasi masalah secara global",
+        "text": "step1.md",
+        "verify": "verify1.sh"
+      },
+      {
+        "title": "Step 2 — Temukan mountpoint yang bermasalah",
+        "text": "step2.md",
+        "verify": "verify2.sh"
+      },
+      {
+        "title": "Step 3 — Drill-down ke direktori terbesar",
+        "text": "step3.md",
+        "verify": "verify3.sh"
+      },
+      {
+        "title": "Step 4 — Identifikasi file culprit",
+        "text": "step4.md",
+        "verify": "verify4.sh"
+      },
+      {
+        "title": "Step 5 — Remediate & verifikasi",
+        "text": "step5.md",
+        "verify": "verify5.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

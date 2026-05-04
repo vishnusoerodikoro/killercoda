@@ -1,0 +1,18 @@
+{
+  "title": "Lab 04 — Web Server Tak Bisa Diakses",
+  "description": "Tim deploy nginx site baru. User report 'connection refused'. Diagnose root cause di 3 layer berbeda: service, config, dan network.",
+  "difficulty": "intermediate",
+  "time": "15",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "background": "background.sh",
+    "steps": [
+      { "title": "Step 1 — Reproduce & konfirmasi error", "text": "step1.md", "verify": "verify1.sh" },
+      { "title": "Step 2 — Cek service status", "text": "step2.md", "verify": "verify2.sh" },
+      { "title": "Step 3 — Baca logs & validasi config", "text": "step3.md", "verify": "verify3.sh" },
+      { "title": "Step 4 — Cek port & fix", "text": "step4.md", "verify": "verify4.sh" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
