@@ -30,5 +30,8 @@ stat /var/log/mystery.log
 > Di produksi nyata, lo harus tahu **akar masalahnya** — bukan cuma nulis file-nya.
 
 ---
-
+Setelah ketemu, jalankan perintah ini sebagai tanda bukti:
+```
+echo "mystery.log" > ~/found-culprit.txt
+```
 > ✅ Sudah identify `/var/log/mystery.log` sebagai culprit? Klik **Check**.
