@@ -18,3 +18,8 @@ mpstat -P ALL 1 3
 > 💡 Di produksi: sebelum kill, selalu cek apakah traffic/request count memang naik. Kill proses yang lagi handle real traffic = buat outage sendiri.
 
 > ✅ Run `pidstat 1 5`. Catat PID yang konsisten tinggi. Klik **Check**.
+>
+> Setelah selesai observasi, simpan hasilnya:
+```
+pidstat 1 3 > ~/lab02-step3.txt
+```
