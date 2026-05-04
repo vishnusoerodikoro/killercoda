@@ -1,3 +1,6 @@
 #!/bin/bash
-grep -q "pidstat\|mpstat" ~/.bash_history 2>/dev/null && exit 0
+if [ -f ~/lab02-step3.txt ]; then
+  exit 0
+fi
+echo "Hint: jalankan -> pidstat 1 3 > ~/lab02-step3.txt"
 exit 1
