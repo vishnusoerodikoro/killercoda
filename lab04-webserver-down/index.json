@@ -3,9 +3,11 @@
   "description": "Tim deploy nginx site baru. User report 'connection refused'. Diagnose root cause di 3 layer berbeda: service, config, dan network.",
   "difficulty": "intermediate",
   "time": "15",
-  "details": {
-    "intro": { "text": "intro.md" },
-    "background": "background.sh",
+    "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
     "steps": [
       { "title": "Step 1 — Reproduce & konfirmasi error", "text": "step1.md", "verify": "verify1.sh" },
       { "title": "Step 2 — Cek service status", "text": "step2.md", "verify": "verify2.sh" },
