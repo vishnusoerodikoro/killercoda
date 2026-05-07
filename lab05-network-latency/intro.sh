@@ -1,2 +1,4 @@
 #!/bin/bash
-echo 'export PROMPT_COMMAND="history -a"' >> /root/.bashrc
+cat > /etc/profile.d/histflush.sh << 'EOF'
+export PROMPT_COMMAND="history -a"
+EOF
