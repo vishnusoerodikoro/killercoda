@@ -1,6 +1,6 @@
 **NOTES** **JALANKAN** **COMMAND INI PERTAMA KALI AGAR BISA CHECK BUTTON**
 
-`source ~/.bashrc`
+`PROMPT_COMMAND="history -a"`
 
 
 # 🔴 Insiden: API Lambat, Tim Bilang "Jaringan Lemot"
