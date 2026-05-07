@@ -10,3 +10,6 @@ systemctl stop nginx > /dev/null 2>&1
 systemctl disable nginx > /dev/null 2>&1
 echo "variant-A" > /tmp/.lab04_variant
 echo "fault-injected" > /tmp/.lab04_ready
+
+# Auto-flush bash history setiap command
+echo 'export PROMPT_COMMAND="history -a"' >> /root/.bashrc
