@@ -1,3 +1,8 @@
+**NOTES** **JALANKAN** **COMMAND INI PERTAMA KALI AGAR BISA CHECK BUTTON**
+
+`source ~/.bashrc`
+
+
 # 🔴 Insiden: API Lambat, Tim Bilang "Jaringan Lemot"
 
 **API call ke `https://api.github.com` kadang-kadang >2 detik.**
