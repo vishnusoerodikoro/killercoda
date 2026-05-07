@@ -4,7 +4,8 @@
   "difficulty": "intermediate",
   "time": "15",
   "details": {
-    "intro": { "text": "intro.md", "foreground": "intro.sh" },
+    "intro": { "text": "intro.md" },
+    "background": "background.sh",
     "steps": [
       { "title": "Step 1 — Path-level test dengan mtr", "text": "step1.md", "verify": "verify1.sh" },
       { "title": "Step 2 — Isolasi DNS resolution time", "text": "step2.md", "verify": "verify2.sh" },
