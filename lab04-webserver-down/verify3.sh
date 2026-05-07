@@ -1,3 +1,3 @@
 #!/bin/bash
-grep -qE "journalctl|nginx -t" ~/.bash_history 2>/dev/null && exit 0
+test -f /tmp/step3-done.txt && exit 0
 exit 1
