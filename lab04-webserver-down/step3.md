@@ -32,4 +32,5 @@ nginx: [emerg] unknown directive "invalid_directive_here" in /etc/nginx/nginx.co
 
 Kalau config error ditemukan, edit file yang disebutkan dan fix baris yang bermasalah.
 
-> ✅ Run `sudo nginx -t`. Apakah config valid? Klik **Check**.
+> ✅ Run `journalctl -u nginx --no-pager | tee /tmp/step3-done.txt
+`. Apakah config valid? Klik **Check**.
