@@ -26,6 +26,9 @@ Kalau service tidak jalan, coba start:
 sudo systemctl start nginx
 ```
 
+
+
 Kalau masih gagal, lanjut ke step 3 untuk cek logs.
 
-> ✅ Run `systemctl status nginx`. Klik **Check**.
+> ✅ Run `systemctl status nginx | tee /tmp/step2-done.txt
+`. Klik **Check**.
